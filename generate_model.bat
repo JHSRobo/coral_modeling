@@ -20,13 +20,10 @@ set ModelName="CoralModel"
 %RealityCaptureExe% -addFolder %Images% ^
         -align ^
         -setReconstructionRegionAuto ^
+        -selectMaximalComponent ^
         -calculateNormalModel ^
-        -selectMarginalTriangles ^
-        -removeSelectedTriangles ^
         -renameSelectedModel %ModelName% ^
-        -calculateTexture ^
-        -save %Project% ^
-        -quit
+        -calculateTexture
        
         
 
