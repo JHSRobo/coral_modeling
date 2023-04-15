@@ -3,6 +3,7 @@
 :: switch off console output
 @echo off
 
+powershell -ExecutionPolicy Bypass -File \\wsl.localhost\Ubuntu-20.04\home\jhsrobo\ROVMIND\ros_workspace\src\coral_modeling\setup.ps1
 
 :: path to RealityCapture application
 set RealityCaptureExe="C:\Program Files\Capturing Reality\RealityCapture\RealityCapture.exe"
