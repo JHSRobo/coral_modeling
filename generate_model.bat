@@ -3,10 +3,14 @@
 :: switch off console output
 @echo off
 
-call SetVariables.bat
+
+:: path to RealityCapture application
+set RealityCaptureExe="C:\Program Files\Capturing Reality\RealityCapture\RealityCapture.exe"
+
+set RootFolder="C:\Users\Jamme\OneDrive\Pictures\Robotics\Photogrammetry"
 
 :: variable storing path to images for creating model
-set Images="%RootFolder%\img"
+set Images="C:\Users\Jamme\OneDrive\Pictures\Robotics\Photogrammetry\coral"
 
 :: set a new name for calculated model
 set ModelName="CoralModel"
