@@ -9,7 +9,7 @@ def add_clicks(event,x,y,flags,param):
 
 clicks = []
 
-img = cv2.imread('\home\jhsrobo\ROVMIND\ros_workspace\src\img_capture\img\coral\radius\rad.png', cv2.IMREAD_COLOR)
+img = cv2.imread('/home/jhsrobo/ROVMIND/ros_workspace/src/img_capture/img/coral/radius/rad.png', cv2.IMREAD_COLOR)
 cv2.namedWindow(window_name)
 cv2.setMouseCallback(window_name, add_clicks)
 
